@@ -86,7 +86,6 @@ class Style(CMSPlugin):
     class_name = models.CharField(
         verbose_name=_('Class name'),
         choices=CLASS_CHOICES,
-        default=CLASS_CHOICES[0][0],
         blank=True,
         max_length=255,
     )
