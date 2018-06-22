@@ -18,12 +18,12 @@ class StylePlugin(CMSPluginBase):
             'fields': (
                 'label',
                 ('class_name', 'tag_type'),
+                'additional_classes',
             )
         }),
         (_('Advanced settings'), {
             'classes': ('collapse',),
             'fields': (
-                'additional_classes',
                 'id_name',
                 'template',
                 'attributes',
